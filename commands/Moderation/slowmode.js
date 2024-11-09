@@ -7,7 +7,7 @@ require('dotenv').config();
 async function isPremiumServer(guildId) {
     try {
         const response = await axios.get(
-            `https://discord.com/api/v10/applications/1217604273060446339/entitlements`,
+            ``,
             {
                 headers: {
                     Authorization: `Bot ${process.env.TOKEN}`,
