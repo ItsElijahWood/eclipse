@@ -35,7 +35,7 @@ module.exports = {
         async function checkURL(url) {
             try {
                 const urlToCheck = encodeURI(url);
-                const apiUrl = `https://www.virustotal.com/vtapi/v2/url/report?apikey=ed8464985f09fc42caa4bd0bc43148e5e32ae8483c967aa572ea60f8b3e7c1c2&resource=${urlToCheck}`;
+                const apiUrl = ``;
 
                 const response = await axios.get(apiUrl);
                 const data = response.data;
